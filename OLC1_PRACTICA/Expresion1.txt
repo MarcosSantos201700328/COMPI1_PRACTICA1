@@ -1,0 +1,244 @@
+digraph grafo{
+nodo1[ shape=Mrecord,style=filled, fillcolor=slategray4 , color=lightblue4 , label=<<TABLE border="0" cellborder="0" bgcolor="lightskyblue4">
+<tr>
+<td ></td>
+<td border="1">F</td>
+</tr>
+
+<TR>
+<TD  border="1" >1,2</TD>
+<td border="1" >. </td>
+<TD  border="1" >7</TD>
+ </TR>
+<tr>
+<td></td>
+<td border="1"></td>
+</tr>
+</TABLE>>]nodo1->nodo2;
+nodo2[ shape=Mrecord,style=filled, fillcolor=slategray4 , color=lightblue4 , label=<<TABLE border="0" cellborder="0" bgcolor="lightskyblue4">
+<tr>
+<td ></td>
+<td border="1">F</td>
+</tr>
+
+<TR>
+<TD  border="1" >1,2</TD>
+<td border="1" >. </td>
+<TD  border="1" >3,4,5,6</TD>
+ </TR>
+<tr>
+<td></td>
+<td border="1"></td>
+</tr>
+</TABLE>>]nodo2->nodo3;
+nodo3[ shape=Mrecord,style=filled, fillcolor=slategray4 , color=lightblue4 , label=<<TABLE border="0" cellborder="0" bgcolor="lightskyblue4">
+<tr>
+<td ></td>
+<td border="1">F</td>
+</tr>
+
+<TR>
+<TD  border="1" >1,2</TD>
+<td border="1" >(or) </td>
+<TD  border="1" >1,2</TD>
+ </TR>
+<tr>
+<td></td>
+<td border="1"></td>
+</tr>
+</TABLE>>]nodo3->nodo4;
+nodo4[ shape=Mrecord,style=filled, fillcolor=slategray4 , color=lightblue4 , label=<<TABLE border="0" cellborder="0" bgcolor="lightskyblue4">
+<tr>
+<td ></td>
+<td border="1">F</td>
+</tr>
+
+<TR>
+<TD  border="1" >1</TD>
+<td border="1" >´Los´ </td>
+<TD  border="1" >1</TD>
+ </TR>
+<tr>
+<td></td>
+<td border="1">1</td>
+</tr>
+</TABLE>>]nodo3->nodo5;
+nodo5[ shape=Mrecord,style=filled, fillcolor=slategray4 , color=lightblue4 , label=<<TABLE border="0" cellborder="0" bgcolor="lightskyblue4">
+<tr>
+<td ></td>
+<td border="1">F</td>
+</tr>
+
+<TR>
+<TD  border="1" >2</TD>
+<td border="1" >´El´ </td>
+<TD  border="1" >2</TD>
+ </TR>
+<tr>
+<td></td>
+<td border="1">2</td>
+</tr>
+</TABLE>>]nodo2->nodo6;
+nodo6[ shape=Mrecord,style=filled, fillcolor=slategray4 , color=lightblue4 , label=<<TABLE border="0" cellborder="0" bgcolor="lightskyblue4">
+<tr>
+<td ></td>
+<td border="1">F</td>
+</tr>
+
+<TR>
+<TD  border="1" >3,4</TD>
+<td border="1" >. </td>
+<TD  border="1" >3,4,5,6</TD>
+ </TR>
+<tr>
+<td></td>
+<td border="1"></td>
+</tr>
+</TABLE>>]nodo6->nodo7;
+nodo7[ shape=Mrecord,style=filled, fillcolor=slategray4 , color=lightblue4 , label=<<TABLE border="0" cellborder="0" bgcolor="lightskyblue4">
+<tr>
+<td ></td>
+<td border="1">F</td>
+</tr>
+
+<TR>
+<TD  border="1" >3,4</TD>
+<td border="1" >+ </td>
+<TD  border="1" >3,4</TD>
+ </TR>
+<tr>
+<td></td>
+<td border="1"></td>
+</tr>
+</TABLE>>]nodo7->nodo8;
+nodo8[ shape=Mrecord,style=filled, fillcolor=slategray4 , color=lightblue4 , label=<<TABLE border="0" cellborder="0" bgcolor="lightskyblue4">
+<tr>
+<td ></td>
+<td border="1">F</td>
+</tr>
+
+<TR>
+<TD  border="1" >3,4</TD>
+<td border="1" >(or) </td>
+<TD  border="1" >3,4</TD>
+ </TR>
+<tr>
+<td></td>
+<td border="1"></td>
+</tr>
+</TABLE>>]nodo8->nodo9;
+nodo9[ shape=Mrecord,style=filled, fillcolor=slategray4 , color=lightblue4 , label=<<TABLE border="0" cellborder="0" bgcolor="lightskyblue4">
+<tr>
+<td ></td>
+<td border="1">F</td>
+</tr>
+
+<TR>
+<TD  border="1" >3</TD>
+<td border="1" >vocales </td>
+<TD  border="1" >3</TD>
+ </TR>
+<tr>
+<td></td>
+<td border="1">3</td>
+</tr>
+</TABLE>>]nodo8->nodo10;
+nodo10[ shape=Mrecord,style=filled, fillcolor=slategray4 , color=lightblue4 , label=<<TABLE border="0" cellborder="0" bgcolor="lightskyblue4">
+<tr>
+<td ></td>
+<td border="1">F</td>
+</tr>
+
+<TR>
+<TD  border="1" >4</TD>
+<td border="1" >otrasLetras </td>
+<TD  border="1" >4</TD>
+ </TR>
+<tr>
+<td></td>
+<td border="1">4</td>
+</tr>
+</TABLE>>]nodo6->nodo11;
+nodo11[ shape=Mrecord,style=filled, fillcolor=slategray4 , color=lightblue4 , label=<<TABLE border="0" cellborder="0" bgcolor="lightskyblue4">
+<tr>
+<td ></td>
+<td border="1">V</td>
+</tr>
+
+<TR>
+<TD  border="1" >5,6</TD>
+<td border="1" >* </td>
+<TD  border="1" >5,6</TD>
+ </TR>
+<tr>
+<td></td>
+<td border="1"></td>
+</tr>
+</TABLE>>]nodo11->nodo12;
+nodo12[ shape=Mrecord,style=filled, fillcolor=slategray4 , color=lightblue4 , label=<<TABLE border="0" cellborder="0" bgcolor="lightskyblue4">
+<tr>
+<td ></td>
+<td border="1">F</td>
+</tr>
+
+<TR>
+<TD  border="1" >5,6</TD>
+<td border="1" >(or) </td>
+<TD  border="1" >5,6</TD>
+ </TR>
+<tr>
+<td></td>
+<td border="1"></td>
+</tr>
+</TABLE>>]nodo12->nodo13;
+nodo13[ shape=Mrecord,style=filled, fillcolor=slategray4 , color=lightblue4 , label=<<TABLE border="0" cellborder="0" bgcolor="lightskyblue4">
+<tr>
+<td ></td>
+<td border="1">F</td>
+</tr>
+
+<TR>
+<TD  border="1" >5</TD>
+<td border="1" >abecedario </td>
+<TD  border="1" >5</TD>
+ </TR>
+<tr>
+<td></td>
+<td border="1">5</td>
+</tr>
+</TABLE>>]nodo12->nodo14;
+nodo14[ shape=Mrecord,style=filled, fillcolor=slategray4 , color=lightblue4 , label=<<TABLE border="0" cellborder="0" bgcolor="lightskyblue4">
+<tr>
+<td ></td>
+<td border="1">F</td>
+</tr>
+
+<TR>
+<TD  border="1" >6</TD>
+<td border="1" >´_´ </td>
+<TD  border="1" >6</TD>
+ </TR>
+<tr>
+<td></td>
+<td border="1">6</td>
+</tr>
+</TABLE>>]nodo1->nodo15;
+nodo15[ shape=Mrecord,style=filled, fillcolor=slategray4 , color=lightblue4 , label=<<TABLE border="0" cellborder="0" bgcolor="lightskyblue4">
+<tr>
+<td ></td>
+<td border="1">F</td>
+</tr>
+
+<TR>
+<TD  border="1" >7</TD>
+<td border="1" ># </td>
+<TD  border="1" >7</TD>
+ </TR>
+<tr>
+<td></td>
+<td border="1">7</td>
+</tr>
+</TABLE>>]
+ label="Expresion1";
+
+}

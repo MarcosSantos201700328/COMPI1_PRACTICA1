@@ -1,0 +1,22 @@
+digraph grafo{
+node [shape=box];
+tabla[shape=box, style=filled, fillcolor=white, color=blue, label=<<TABLE border="0" cellborder="1">
+<TR><TD>Simbolo</TD><TD>Transiciones</TD></TR>
+<TR>
+<TD>S0</TD>
+<TD>   S1 - digito</TD></TR>
+<TR>
+<TD>S1</TD>
+<TD>   S2 - ´.´</TD></TR>
+<TR>
+<TD>S2</TD>
+<TD>   S3 - digito</TD></TR>
+<TR>
+<TD>S3</TD>
+<TD>   S3 - digito</TD></TR>
+</TABLE>>]
+
+
+ label="ExpReg3";
+
+}

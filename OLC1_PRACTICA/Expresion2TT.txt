@@ -1,0 +1,25 @@
+digraph grafo{
+node [shape=box];
+tabla[shape=box, style=filled, fillcolor=white, color=blue, label=<<TABLE border="0" cellborder="1">
+<TR><TD>Simbolo</TD><TD>Transiciones</TD></TR>
+<TR>
+<TD>S0</TD>
+<TD>   S1 - abecedario</TD></TR>
+<TR>
+<TD>S1</TD>
+<TD>   S1 - abecedario   ,      S2 - conjnum</TD></TR>
+<TR>
+<TD>S2</TD>
+<TD>   S3 - ´:´</TD></TR>
+<TR>
+<TD>S3</TD>
+<TD>   S4 - abecedario</TD></TR>
+<TR>
+<TD>S4</TD>
+<TD>   S4 - abecedario   ,      S3 - ´:´</TD></TR>
+</TABLE>>]
+
+
+ label="Expresion2";
+
+}

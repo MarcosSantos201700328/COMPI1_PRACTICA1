@@ -1,0 +1,20 @@
+digraph grafo{
+rankdir=LR;
+size="8,5"
+node [shape = doublecircle]; S6 
+ node [shape = circle];
+S0->S0[label="conjnum"];
+S0->S1[label="conjnum"];
+S1->S1[label="conjnum"];
+S1->S2[label="´mayorque´"];
+S2->S3[label="conjnum"];
+S3->S3[label="conjnum"];
+S3->S4[label="´es´"];
+S4->S5[label="´TRUE´"];
+S4->S5[label="´FALSE´"];
+S5->S6[label="´.´"];
+
+
+ label="Expresion3";
+
+}

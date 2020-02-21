@@ -1,0 +1,16 @@
+digraph grafo{
+node [shape=box];
+tabla[shape=box, style=filled, fillcolor=white, color=blue, label=<<TABLE border="0" cellborder="1">
+<TR><TD>Simbolo</TD><TD>Transiciones</TD></TR>
+<TR>
+<TD>S0</TD>
+<TD>   S1 - digito</TD></TR>
+<TR>
+<TD>S1</TD>
+<TD>   S1 - ´_´   ,      S1 - letra   ,      S1 - digito</TD></TR>
+</TABLE>>]
+
+
+ label="RegEx2";
+
+}

@@ -1,0 +1,44 @@
+digraph grafo{
+node [shape=box];
+tabla[shape=box, style=filled, fillcolor=white, color=blue, label=<<TABLE border="0" cellborder="1">
+<TR><TD>Simbolo</TD><TD>i</TD><TD>Siguientes(i)</TD></TR><TR>
+<TD>digito</TD>
+<TD>1</TD>
+<TD>1,2,3,4,5</TD>
+</TR>
+<TR>
+<TD>´+´</TD>
+<TD>2</TD>
+<TD>6</TD>
+</TR>
+<TR>
+<TD>´-´</TD>
+<TD>3</TD>
+<TD>6</TD>
+</TR>
+<TR>
+<TD>´*´</TD>
+<TD>4</TD>
+<TD>6</TD>
+</TR>
+<TR>
+<TD>´/´</TD>
+<TD>5</TD>
+<TD>6</TD>
+</TR>
+<TR>
+<TD>digito</TD>
+<TD>6</TD>
+<TD>6,2,3,4,5,7</TD>
+</TR>
+<TR>
+<TD>#</TD>
+<TD>7</TD>
+<TD>no data</TD>
+</TR>
+</TABLE>>]
+
+
+ label="operaciones";
+
+}
